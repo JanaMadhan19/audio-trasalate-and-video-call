@@ -1,0 +1,124 @@
+{
+  "users": [
+    {
+      "id": "usr_priya",
+      "name": "Priya Sharma",
+      "phoneEncrypted": {
+        "ciphertext": "5bc8b9974231449bf47245a320aed1",
+        "iv": "85fd17743d1439e900dc0761",
+        "tag": "74122ac95ef1bfb87c98f6c59ffa51ff"
+      },
+      "emailEncrypted": {
+        "ciphertext": "238ca4ab6f82ce67966d62d7b3f7e096cb",
+        "iv": "32bb03aece735eecb1d0014d",
+        "tag": "096655dba565ba84c52a884958262762"
+      },
+      "phoneClean": "+19876543210",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "role": "user",
+      "twoFactorEnabled": true,
+      "twoFactorSecret": "123456",
+      "preferredLanguage": "te",
+      "status": "active",
+      "createdAt": "2026-09-28T06:00:46.091Z"
+    },
+    {
+      "id": "usr_ravi",
+      "name": "Ravi Kumar",
+      "phoneEncrypted": {
+        "ciphertext": "48485c7bc5ee1193234b4c762cc8",
+        "iv": "7742d0abc440cf22bea8787c",
+        "tag": "0b403e0fefe5bf911d2eec061da9173e"
+      },
+      "emailEncrypted": {
+        "ciphertext": "bab9fe7cc2dc935eca23012f1643ec8e",
+        "iv": "6e4f3e12fb16b4940caa971c",
+        "tag": "6647c447f5a682bd9f9f4d7daa652735"
+      },
+      "phoneClean": "+919876543210",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "role": "user",
+      "twoFactorEnabled": true,
+      "twoFactorSecret": "654321",
+      "preferredLanguage": "te",
+      "status": "active",
+      "createdAt": "2026-09-28T06:00:46.091Z"
+    },
+    {
+      "id": "usr_alex",
+      "name": "Alex Miller",
+      "phoneEncrypted": {
+        "ciphertext": "14cb644c567d3fc4080fa3",
+        "iv": "a8a0cfdc398ed364d8b772c2",
+        "tag": "768915d96183e82db7ff962536207af4"
+      },
+      "emailEncrypted": {
+        "ciphertext": "527f336a972d351bb1ac22d5108193a6",
+        "iv": "9bf0e0b08172e981e2b1dcbe",
+        "tag": "96b1d7a84c95b8eff59565fbd0982f80"
+      },
+      "phoneClean": "+15550199",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "role": "user",
+      "twoFactorEnabled": false,
+      "twoFactorSecret": "112233",
+      "preferredLanguage": "en",
+      "status": "active",
+      "createdAt": "2026-09-28T06:00:46.091Z"
+    }
+  ],
+  "calls": [
+    {
+      "id": "call_seed_1",
+      "callerId": "usr_ravi",
+      "callerName": "Ravi Kumar",
+      "callerPhone": "+91-9876543210",
+      "recipientId": "usr_priya",
+      "recipientName": "Priya Sharma",
+      "recipientPhone": "+1-987-654-3210",
+      "type": "video",
+      "status": "missed",
+      "startedAt": "2026-09-28T05:00:46.092Z",
+      "durationSeconds": 0,
+      "roomCode": "room-seed-101",
+      "isRead": false
+    },
+    {
+      "id": "call_seed_2",
+      "callerId": "usr_alex",
+      "callerName": "Alex Miller",
+      "callerPhone": "+1-555-0199",
+      "recipientId": "usr_priya",
+      "recipientName": "Priya Sharma",
+      "recipientPhone": "+1-987-654-3210",
+      "type": "video",
+      "status": "completed",
+      "startedAt": "2026-09-28T04:00:46.092Z",
+      "endedAt": "2026-09-28T04:07:46.092Z",
+      "durationSeconds": 420,
+      "roomCode": "room-seed-102",
+      "isRead": true
+    }
+  ],
+  "admin": {
+    "passwordHash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+    "lastPasswordChange": "2026-09-28T06:00:46.091Z"
+  },
+  "auditLogs": [
+    {
+      "id": "audit_1790575258372",
+      "timestamp": "2026-09-28T06:00:58.372Z",
+      "action": "ADMIN_LOGIN",
+      "details": "Admin logged into secure dashboard."
+    },
+    {
+      "id": "log_init",
+      "timestamp": "2026-09-28T06:00:46.091Z",
+      "action": "SYSTEM_BOOTSTRAP",
+      "details": "Encrypted database initialized with AES-256-GCM master keys and default admin account."
+    }
+  ]
+}

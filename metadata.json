@@ -1,0 +1,10 @@
+{
+  "name": "TelCall WebRTC - Real-Time Multilingual Video & Audio Calling",
+  "description": "Encrypted 1-to-1 WebRTC video calling with live real-time speech translation (default Telugu), dial-by-number validation, WebSocket signaling, noise cancellation, screen sharing, collaborative document editor, 2FA, and secure admin dashboard.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "display-capture"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
